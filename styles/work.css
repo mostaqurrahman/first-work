@@ -57,7 +57,7 @@
     width: 416px;
     height: 400px;
     left: 862px;
-    top: 1178px;
+    top: 1118px;
 }
 .content-title{
     position: absolute;
@@ -65,9 +65,9 @@
     height: 94px;
     left: 862px;
     top: 1178px;
+
     font-weight: bold;
     font-size: 40px;
-    line-height: 47px;
     color: #151414;
     text-align: center;
 }
@@ -89,7 +89,6 @@
     left: 890px;
     top: 1430px;
 
-
 }
 ul {
     list-style: none;
@@ -101,4 +100,39 @@ ul {
 ul li:before {
     content: '✓';
     color: rgb(45, 180, 24);
+}
+/* Plan Section */
+.plan-part{
+    text-align: center;
+    border-radius: 10px;
+    padding: 130px 50px;
+    top: 1200;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+    
+}
+.plan-content{
+    display: flex;
+    gap:30px;
+    margin-left: 250px;
+    margin-right: 200px;
+}
+.plan{
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 30px;
+}
+.plan-subtitle{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.plan-description{
+    text-align: center;
+    color: #757575;
 }
