@@ -50,15 +50,14 @@
     height: 723.3px;
     padding:130px;
     padding-left: 206px;
-    padding-right: 825px;
-    top: 939px;
+    float: left;
 }
 .content{
     width: 416px;
     height: 400px;
     left: 862px;
     top: 1118px;
-}
+} 
 .content-title{
     position: absolute;
     width: 288px;
@@ -103,29 +102,30 @@ ul li:before {
 }
 /* Plan Section */
 .plan-part{
-    position: absolute;
     text-align: center;
+    margin-top: 350px;
     border-radius: 10px;
-    padding: 130px 50px;
+    padding: 130px 70px;
     
 }
 .plan-title{
     font-weight: 700;
     font-size: 40px;
     color: #151414;
+    margin-top: 120px;
     margin-bottom: 80px;
-    
 }
 .plan-content{
     display: flex;
-    gap:30px;
-    margin-left: 250px;
-    margin-right: 200px;
+    gap:25px;
+    margin-left: 30px;
+    margin-right: 50%;
 }
 .plan{
     background: #FFFFFF;
     border-radius: 5px;
     padding: 30px;
+    margin-left: 150px;
 }
 .plan-subtitle{
     text-align: center;
@@ -141,7 +141,7 @@ ul li:before {
 /* Skill Part */
 .skill{
     text-align: center;
-    top: 3000px;
+    top: 1600px;
     
 }
 .skill-title{
@@ -176,18 +176,22 @@ ul li:before {
 .skill-description{
     text-align: center;
 }
+
+/* Section Contact */
+
 .contact{
     position: absolute;
     width: 1140px;
     height: 300px;
     left: 200px;
-    top: 2822.26px;
+    top: 2922.26px;
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(/images/watch.png);
     border-radius: 8px;
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: 0%;
-    margin-top: 100px;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 .contact-title{
     width: 459px;
@@ -215,7 +219,7 @@ ul li:before {
 }
 /* Footer Part */
 .footer{
-    margin-top: 100px;
+    margin-top: 700px;
     width: 100%;
     height: 577px;
     background: #151414;
@@ -223,9 +227,9 @@ ul li:before {
     color:white ;
     display: flex;
 }
-.footer.sec1{
-    padding-left: 330px;
-    padding-top: 130px;
+.footer-sec1{
+    margin-left: 230px;
+    margin-top: 130px;
 }
 .footer-sec1-title{
     width: 148px;
@@ -249,19 +253,21 @@ ol{
     padding-left: 331px;
     padding-top: 130px;
 }
+.footer-section-title{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
 #email{
     width: 325px;
     height: 64px;
     margin-top: 52px ;
-    border-radius: 10px;
-    background-color: black;
+    border-radius: 15px;
+    background-color: rgb(11, 11, 11);
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
     color: white;
-}
-#sub-btn{
-    border-radius: 15px;
-    margin-left: 10px;
 }
